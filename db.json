@@ -4,18 +4,46 @@
       "id": 1,
       "username": "test",
       "email": "test@mail.com",
-      "password": "test"
+      "password": "test",
+      "avatar": "https://picsum.photos/200"
     }
   ],
   "forum": [
     {
       "id": 1,
       "username": "test",
-      "questionTitle": "",
+      "questionTitle": "Testing",
       "language": "JavaScript",
       "date": "30/11/2023",
-      "votes": 1,
-      "answers": 1
+      "upvotes": 1,
+      "answers": 2,
+      "userAvatar": "https://picsum.photos/200",
+      "questionDescription": "Test",
+      "answersArray": ["test", "test1"]
+    },
+    {
+      "id": 2,
+      "username": "test1",
+      "questionTitle": "Testing1",
+      "language": "JavaScript",
+      "date": "30/11/2023",
+      "upvotes": 3,
+      "answers": 3,
+      "userAvatar": "https://picsum.photos/200",
+      "questionDescription": "Test",
+      "answersArray": ["test", "test1", "test2"]
+    },
+    {
+      "id": 3,
+      "username": "test3",
+      "questionTitle": "Testing3",
+      "language": "Java",
+      "date": "30/11/2023",
+      "upvotes": 3,
+      "answers": 1,
+      "userAvatar": "https://picsum.photos/200",
+      "questionDescription": "Test",
+      "answersArray": ["test"]
     }
   ]
 }
